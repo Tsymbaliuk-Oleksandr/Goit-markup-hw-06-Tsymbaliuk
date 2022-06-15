@@ -434,7 +434,7 @@
             </ul>
           </address>
         </div>
-        <div>
+        <div class="name-title-input">
           <h3 class="name-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
           <ul class="name-title-list">
             <li class="name-title-item">
@@ -467,6 +467,21 @@
             </li>
           </ul>
         </div>
+        <div>
+          <h3 class="name-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+          <form action="">
+            <input
+              type="text"
+              class="footer-modal-input"
+              placeholder="E-mail"
+            />
+            <button type="button" class="footer-modal-button">
+              Подписаться<svg class="name-modal-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -477,6 +492,40 @@
             <use href="./img/symbol-defs-I.svg#icon-close"></use>
           </svg>
         </button>
+        <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+        <form>
+          <label class="madal-label">
+            Имя
+            <input
+              type="text"
+              class="modal-input-form"
+              name="user-name"
+              placeholder="Имя"
+              required
+            />
+          </label>
+          <label class="madal-label">
+            Телефон
+            <input
+              type="tel"
+              class="modal-input-form"
+              name="user-tel"
+              placeholder="Телефон"
+              required
+            />
+          </label>
+          <label class="madal-label">
+            Почта
+            <input
+              type="email"
+              class="modal-input-form"
+              name="user-email"
+              placeholder="Почта"
+              required
+            />
+          </label>
+          <button type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
