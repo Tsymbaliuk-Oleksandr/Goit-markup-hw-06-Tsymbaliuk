@@ -936,15 +936,6 @@ address {
   margin-bottom: 10px;
 }
 
-.modal-label {
-  margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.01em;
-
-  color: #757575;
-}
-
 .input-wrap {
   position: relative;
 }
