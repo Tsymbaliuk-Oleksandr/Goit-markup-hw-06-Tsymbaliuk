@@ -497,6 +497,7 @@
         <form>
           <div class="modal-field">
             <label class="madal-label">Имя</label>
+
             <div class="input-wrap">
               <input
                 type="text"
@@ -557,17 +558,19 @@
           <div class="modal-field">
             <input
               type="checkbox"
-              name="soglashenie"
-              class="modal-input-form"
+              name="privacy"
               value="true"
-              id="soglashenie"
+              class="modal-check visually-hidden"
+              id="privacy"
             />
-            <label for="dogovor" class="check-text"
-              >Соглашаюсь с рассылкой и принимаю Условия договора</label
-            >
+            <label for="privacy" class="check-text">
+              Соглашаюсь с рассылкой и принимаю
+              <u class="uslovie">Условия договора</u>
+            </label>
           </div>
-
-          <button type="submit">Отправить</button>
+          <div class="batton-sabmit-div">
+            <button type="button" class="button-submit">Отправить</button>
+          </div>
         </form>
       </div>
     </div>
